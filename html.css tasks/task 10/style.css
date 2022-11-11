@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(241, 28, 71);
+
+}
+div{
+    width: 350px;
+    height: 350px;
+    background-color:white;
+    border-radius: 20px;
+padding: 20px 20px;
+margin: 170px 500px;
+display: block;
+
+}
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    border-color: gray;
+   
+}
+h1{
+    color: rgb(156, 0, 31);
+text-align: center;
+}
+i{
+    color: gray;
+   
+}
+.hi{
+  background-color: crimson;
+  color: white;
+  margin: 0 20px;
+}
+
+

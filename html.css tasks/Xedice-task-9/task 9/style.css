@@ -1,0 +1,24 @@
+.house{
+width: 500px;
+height: 500px;
+background: url(https://picsum.photos/id/71/400) center no-repeat;
+background-size: cover;
+position: relative;
+float: left;
+}
+.house::after{
+content: "";
+position: absolute;
+width: 500px;
+height: 500px;
+background-color: rgba(147, 169, 23, 0.5);
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    float: right;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

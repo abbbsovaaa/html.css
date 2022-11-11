@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+*{
+  box-sizing: border-box; 
+}
+.domino{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    margin: 200px auto;
+    
+    
+    
+    
+}
+.domino>div{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    
+    
+}
+.sol{
+ border-right: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.sag{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.qara{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
